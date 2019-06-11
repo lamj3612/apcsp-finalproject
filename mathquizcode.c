@@ -95,9 +95,9 @@ else
   printf("Incorrect\n");
   printf("Score = %d/%d\n\n",score,total);
 }
- while (score >= 4)
+ while (total >= 4)
       {
-        printf("you already passed btw");
+        printf("You only have two questions left.");
         break;
 
       }
